@@ -1,0 +1,39 @@
+insert into tblestado (nome, sigla) values ('Acre','AC');
+insert into tblestado (nome, sigla) values ('Alagoas','AL');
+insert into tblestado (nome, sigla) values ('Amapá','AP');
+insert into tblestado (nome, sigla) values ('Amazonas','Am');
+insert into tblestado (nome, sigla) values ('Bahia','Ba');
+insert into tblestado (nome, sigla) values ('Ceará','CE');
+insert into tblestado (nome, sigla) values ('Espírito Santo','ES');
+insert into tblestado (nome, sigla) values ('Goiás','Go');
+insert into tblestado (nome, sigla) values ('Maranhão','MA');
+insert into tblestado (nome, sigla) values ('Mato Grosso','MT');
+insert into tblestado (nome, sigla) values ('Mato Grosso do Sul','MS');
+insert into tblestado (nome, sigla) values ('Minas Gerais','MG');
+insert into tblestado (nome, sigla) values ('Pará','PA');
+insert into tblestado (nome, sigla) values ('Paraíba','PB');
+insert into tblestado (nome, sigla) values ('Paraná','PR');
+insert into tblestado (nome, sigla) values ('Pernambuco','PE');
+insert into tblestado (nome, sigla) values ('Piauí','PI');
+insert into tblestado (nome, sigla) values ('Rio de Janeiro','RJ');
+insert into tblestado (nome, sigla) values ('Rio Grande do Norte','RN');
+insert into tblestado (nome, sigla) values ('Rio Grande do Sul','RS');
+insert into tblestado (nome, sigla) values ('Rondônia','RO');
+insert into tblestado (nome, sigla) values ('Roraima','RR');
+insert into tblestado (nome, sigla) values ('Santa Catarina','SC');
+insert into tblestado (nome, sigla) values ('São Paulo','SP');
+insert into tblestado (nome, sigla) values ('Sergipe','SE');
+insert into tblestado (nome, sigla) values ('Tocantins','TO');
+insert into tblestado (nome, sigla) values ('Distrito Federal','DF');
+
+insert into tblsexo set nome = 'Masculino';
+insert into tblsexo set nome = 'Femenino';
+insert into tblsexo set nome = 'Não Informar';
+
+
+// "scripts": {
+  //   "dev": "nodemon src/server.js",
+  //   "pretest": "cross-env NODE_ENV=test npx sequelize db:migrate",
+  //   "test": "cross-env NODE_ENV=test jest",
+  //   "posttest": "cross-env NODE_ENV=test npx sequelize db:migrate:undo:all"
+  // },
